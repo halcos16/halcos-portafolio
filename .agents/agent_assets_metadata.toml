@@ -1,0 +1,97 @@
+uploads = []
+
+[[generated]]
+id = "6wvAF0Aun7C4GiPrI78tw"
+uri = "file://artifacts/mockup-sandbox/public/images/hero.png"
+type = "image"
+title = "Dramatic landscape hero"
+
+[[generated]]
+id = "DDovNhL0wnBIUAtPMMno2"
+uri = "file://artifacts/mockup-sandbox/public/images/paisajes-1.png"
+type = "image"
+title = "Mountain landscape"
+
+[[generated]]
+id = "mvQgVuH7XUVXXTr6ZdQvV"
+uri = "file://artifacts/mockup-sandbox/public/images/paisajes-2.png"
+type = "image"
+title = "Misty forest path"
+
+[[generated]]
+id = "0IOF6hkrDT9EFmtc_r-C7"
+uri = "file://artifacts/mockup-sandbox/public/images/luna-1.png"
+type = "image"
+title = "Detailed moon photography"
+
+[[generated]]
+id = "2uIvgoV_OuHqBkMZ7hZfD"
+uri = "file://artifacts/mockup-sandbox/public/images/mascotas-1.png"
+type = "image"
+title = "Elegant dog portrait"
+
+[[generated]]
+id = "XPF5JAiJ2rNGrxk2I-p6W"
+uri = "file://artifacts/mockup-sandbox/public/images/macro-1.png"
+type = "image"
+title = "Water droplet macro"
+
+[[generated]]
+id = "jh0JCugoNqhtTODcwNons"
+uri = "file://artifacts/mockup-sandbox/public/images/flores-1.png"
+type = "image"
+title = "Soft flower macro"
+
+[[generated]]
+id = "GLlIXHufo9Cv1Yz-sLoog"
+uri = "file://artifacts/mockup-sandbox/public/images/arquitectura-1.png"
+type = "image"
+title = "Modern architecture"
+
+[[generated]]
+id = "Q9tPDVxFJUv7EIK_uj5u4"
+uri = "file://artifacts/mockup-sandbox/public/images/arquitectura-2.png"
+type = "image"
+title = "Cathedral interior"
+
+[[generated]]
+id = "HEbW0f0JP9S5LqKqUOcBk"
+uri = "file://artifacts/mockup-sandbox/public/images/retrato-1.png"
+type = "image"
+title = "Dramatic male portrait"
+
+[[outputs]]
+id = "APLbjmV9N99L9vYuP-UI9"
+uri = "file://artifacts/mockup-sandbox/public/images/retrato-2.jpg"
+type = "image"
+title = "Natural light female portrait, window light, soft focus, lifestyle photography"
+
+[[outputs]]
+id = "i81fc2Yu7xTVNZ-V1f73V"
+uri = "file://artifacts/mockup-sandbox/public/images/productos-1.jpg"
+type = "image"
+title = "Luxury watch product photography on marble, studio lighting, sharp focus"
+
+[[outputs]]
+id = "T1B8IccdrH4CXGqE97_x-"
+uri = "file://artifacts/mockup-sandbox/public/images/bn-1.jpg"
+type = "image"
+title = "Black and white urban street photography, rain, reflection, moody contrast"
+
+[[outputs]]
+id = "TQXDpE6u4b_EM_mK-4mc3"
+uri = "file://artifacts/mockup-sandbox/public/images/bn-2.jpg"
+type = "image"
+title = "Black and white portrait with dramatic shadows, striking lighting"
+
+[[outputs]]
+id = "Rkaf9MjDIEEAPP__6Q-VD"
+uri = "file://artifacts/mockup-sandbox/public/images/doble-1.jpg"
+type = "image"
+title = "Artistic double exposure portrait with nature"
+
+[[outputs]]
+id = "TI98uO8FMY3Vj4Ewg39Oe"
+uri = "file://artifacts/mockup-sandbox/public/images/alex-portrait.jpg"
+type = "image"
+title = "Professional photographer portrait, 40s male, thoughtful expression, camera"

@@ -1,0 +1,117 @@
+PORTAFOLIO PROFESIONAL DE FOTOGRAFÍA: ALEX CARDONA
+Desarrolla un sitio web de portafolio personal y profesional, moderno e impactante, para "ALEX CARDONA", un fotógrafo profesional de 47 años. El objetivo de la web es exhibir su trabajo artístico y técnico de forma impecable, captar clientes para proyectos comerciales y ofrecer una experiencia de usuario (UX) fluida y minimalista que ponga las imágenes en el centro de atención.
+
+1. DISEÑO Y ESTÉTICA
+Paleta de colores: Fondo principal blanco puro o gris ultra-claro (#FFFFFF / #F9F9F9) para que no compita con los colores de las fotos; acentos y tipografía en negro profundo (#0A0A0A); color de acento sutil para elementos interactivos como líneas de carga o botones (ej. un gris oscuro satinado o azul acero suave).
+
+Tipografía: Sans-serif geométrica y elegante para títulos grandes (estilo Montserrat o Inter); tipografía monospace o serif sutil para datos técnicos de las fotografías (parámetros de disparo, año, categoría).
+
+Filosofía visual: Diseño limpio con abundante uso de espacio en blanco (whitespace al 50-55%) para dar "respiro" visual entre galerías.
+
+Interacciones: Micro-interacciones suaves (fade-ins, transiciones de opacidad lentas al hacer hover sobre las imágenes).
+
+2. HERO SECTION (BIENVENIDA)
+Diseño: Centrado, de pantalla completa o impacto limpio.
+
+Texto principal: Nombre del autor en tipografía bold destacada: "ALEX CARDONA".
+
+Subtítulo: "Fotografía Profesional & Dirección Visual".
+
+Approach corto: "Capturando la esencia del entorno, el detalle y la luz."
+
+Fondo/Imagen: Un carrusel de fondo o una imagen fija de autoría propia de gran impacto (paisaje o arquitectura) con un overlay sutil para garantizar la legibilidad del texto.
+
+Scroll Indicator: Flecha o línea animada hacia abajo que invite a explorar el portafolio.
+
+Botón CTA: "Explorar Galerías" con una animación de línea inferior (underline).
+
+3. SOBRE MÍ (PRESENTACIÓN DEL AUTOR)
+Layout Split: Pantalla dividida. A la izquierda (40%), una fotografía profesional pero relajada de Alex Cardona (autor, 47 años). A la derecha (60%), el bloque de texto.
+
+Contenido de la Biografía (3-4 párrafos):
+
+Introducción sobre quién es Alex Cardona, su madurez y perspectiva visual a los 47 años, y su filosofía con la cámara.
+
+Trayectoria en el mundo de la fotografía y su enfoque en la perfección técnica y artística.
+
+Qué le apasiona de capturar diferentes disciplinas (desde el macro cosmos hasta la inmensidad del paisaje).
+
+Botones de acción: Enlace para descargar el Dossier de Prensa/Tarifas en PDF y enlaces a redes profesionales (Instagram, Behance, LinkedIn).
+
+4. PORTAFOLIO POR CATEGORÍAS (EL NÚCLEO)
+Sistema de Control y Filtros: Un menú de navegación horizontal superior o lateral que permita filtrar de forma instantánea y fluida (Smooth animation) las imágenes por sus 10 categorías específicas:
+
+FOTOGRAFÍA DE PAISAJES
+
+FOTOGRAFÍAS DE LA LUNA
+
+FOTOGRAFÍA DE MASCOTAS
+
+MACROFOTOGRAFÍA
+
+FOTOGRAFÍA DE FLORES
+
+FOTOGRAFÍA ARQUITECTONICA
+
+FOTOGRAFÍA DE RETRATO
+
+FOTOGRAFÍA DE PRODUCTOS
+
+FOTOGRAFÍA EN BLANCO Y NEGRO
+
+FOTOGRAFÍA DE DOBLE EXPOSICION
+
+Layout del Grid: Grid asimétrico (tipo Bento Box o Masonry) para que las fotos verticales y horizontales encajen orgánicamente sin recortarse de forma forzada.
+
+Hover Effect en las Cards de Fotos: Al pasar el cursor, la imagen hace un zoom muy ligero y se muestra un overlay sutil con el título de la foto y un icono de "Expandir".
+
+Funcionalidad Lightbox: Al hacer clic en cualquier fotografía, esta debe abrirse en pantalla completa (modal/lightbox) para apreciarse en alta resolución, permitiendo navegar entre las fotos de esa misma categoría con flechas del teclado o swipes.
+
+5. DETALLE DE FOTOGRAFÍA / CASO DE ESTUDIO (OPCIONAL POR IMAGEN)
+Si el usuario hace clic en "Ver detalles" de una obra o proyecto, se abre una vista limpia que incluye:
+
+La fotografía expuesta en gran tamaño.
+
+Ficha técnica (Metadata): Categoría, Año, y de ser posible, un apartado estético con los datos EXIF del disparo (Cámara, Lente, Apertura, Velocidad ISO) para mostrar el rigor profesional.
+
+Historia de la toma: Un breve texto explicando el desafío detrás de la foto (ej. las horas de espera para la foto de la Luna, o la iluminación en la Doble Exposición).
+
+6. EXPERIENCIA Y COLABORACIONES
+Sección: "Clientes & Publicaciones".
+
+Diseño: Fila horizontal o grid sutil con logotipos de marcas, revistas o estudios con los que se ha colaborado.
+
+Estética: Logos originalmente en escala de grises que recuperan su color original al hacer hover.
+
+7. CONTACTO Y CONTRATACIONES
+Diseño: Sección destacada con un bloque de fondo oscuro o de acento para contrastar con el resto de la web limpia.
+
+Titulares: "¿Tienes un proyecto fotográfico o comercial en mente? Hablemos."
+
+Formulario Simple: Campos optimizados:
+
+Nombre Completo
+
+Correo Electrónico
+
+Tipo de Servicio/Categoría de interés (Dropdown con las categorías principales)
+
+Mensaje / Detalles del proyecto
+
+Vías Alternativas: Enlace directo a Email, perfil de Instagram profesional y un link de Calendly para agendar reuniones de pre-producción.
+
+8. CARACTERÍSTICAS TÉCNICAS Y RENDERIZADO
+Optimización de Imágenes Crucial: Implementar obligatoriamente Lazy Loading y formatos de imagen de última generación (WebP / AVIF) para garantizar que la web cargue instantáneamente a pesar del alto volumen fotográfico.
+
+Navegación: Menú fijo (Sticky Navbar) transparente al inicio que se vuelve sólido al hacer scroll.
+
+Efectos: Animaciones de scroll tipo Fade-in suave. Modo oscuro (Toggle) opcional que invierta los fondos a negro puro (#0A0A0A) para una experiencia de visualización tipo "sala de cine".
+
+Pantalla de carga: Un loading screen mínimo con las iniciales "AC" o el nombre "ALEX CARDONA" desvaneciéndose antes de revelar la página.
+
+9. OPTIMIZACIÓN MÓVIL
+Adaptación completa a smartphones: las galerías pasan a 1 o 2 columnas según el tamaño de pantalla.
+
+Navegación mediante menú hamburguesa limpio y minimalista.
+
+Soporte completo para gestos táctiles (Swipe) para pasar las fotos dentro del Lightbox a pantalla completa.
