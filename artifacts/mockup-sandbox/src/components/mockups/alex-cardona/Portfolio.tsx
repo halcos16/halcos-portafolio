@@ -290,7 +290,7 @@ export function Portfolio() {
         <div style={{ maxWidth: '960px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1.4fr', gap: '5rem', alignItems: 'start' }}>
           <div>
             <img
-              src="/__mockup/images/alex-portrait.jpg"
+              src="https://res.cloudinary.com/dsvzrotib/image/upload/v1780368909/QVZpaGZKVjk0REF0Q3dMw0lOcU51c3ox_lmnv3f.jpg"
               alt="Alex Cardona"
               loading="lazy"
               style={{ width: '100%', aspectRatio: '3/4', objectFit: 'cover', display: 'block', filter: 'grayscale(20%)' }}
