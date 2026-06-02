@@ -24,10 +24,12 @@ const IMAGES = [
 ];
 
 export function Portfolio() {
-  const [scrolled, setScrolled]           = useState(false);
+  const [scrolled, setScrolled]             = useState(false);
   const [activeCategory, setActiveCategory] = useState('Todos');
-  const [lightbox, setLightbox]           = useState<number | null>(null);
-  const [menuOpen, setMenuOpen]           = useState(false);
+  const [lightbox, setLightbox]             = useState<number | null>(null);
+  const [menuOpen, setMenuOpen]             = useState(false);
+  const [form, setForm]                     = useState({ name: '', email: '', service: '', message: '' });
+  const [formState, setFormState]           = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -334,49 +336,84 @@ export function Portfolio() {
           <p style={{ fontSize: '1.6rem', fontWeight: 300, lineHeight: 1.4, marginBottom: '3rem' }}>
             ¿Tienes un proyecto en mente? Hablemos.
           </p>
-          <form onSubmit={e => e.preventDefault()} style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
-            {[
-              { label: 'Nombre', type: 'text' },
-              { label: 'Correo', type: 'email' },
-            ].map(f => (
-              <div key={f.label}>
-                <label style={{ display: 'block', fontSize: '0.65rem', letterSpacing: '0.2em', opacity: 0.4, marginBottom: '0.75rem' }}>
-                  {f.label.toUpperCase()}
-                </label>
-                <input
-                  type={f.type}
-                  style={{
-                    width: '100%', background: 'transparent', border: 'none',
-                    borderBottom: '1px solid rgba(255,255,255,0.15)', color: '#f9f9f9',
-                    fontSize: '1rem', padding: '0.5rem 0', outline: 'none',
-                    boxSizing: 'border-box',
-                  }}
-                />
-              </div>
-            ))}
+          <form
+            onSubmit={async e => {
+              e.preventDefault();
+              setFormState('sending');
+              try {
+                const res = await fetch('/api/contact', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify(form),
+                });
+                if (!res.ok) throw new Error('server error');
+                setFormState('sent');
+                setForm({ name: '', email: '', service: '', message: '' });
+              } catch {
+                setFormState('error');
+              }
+            }}
+            style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}
+          >
             <div>
-              <label style={{ display: 'block', fontSize: '0.65rem', letterSpacing: '0.2em', opacity: 0.4, marginBottom: '0.75rem' }}>
-                TIPO DE PROYECTO
-              </label>
-              <select style={{ width: '100%', background: '#0a0a0a', border: 'none', borderBottom: '1px solid rgba(255,255,255,0.15)', color: '#f9f9f9', fontSize: '1rem', padding: '0.5rem 0', outline: 'none', appearance: 'none' }}>
-                <option value="">—</option>
-                {CATEGORIES.filter(c => c !== 'Todos').map(c => <option key={c} value={c}>{c}</option>)}
+              <label style={{ display: 'block', fontSize: '0.65rem', letterSpacing: '0.2em', opacity: 0.4, marginBottom: '0.75rem' }}>NOMBRE</label>
+              <input
+                type="text" required value={form.name}
+                onChange={e => setForm(f => ({ ...f, name: e.target.value }))}
+                style={{ width: '100%', background: 'transparent', border: 'none', borderBottom: '1px solid rgba(255,255,255,0.15)', color: '#f9f9f9', fontSize: '1rem', padding: '0.5rem 0', outline: 'none', boxSizing: 'border-box' }}
+              />
+            </div>
+            <div>
+              <label style={{ display: 'block', fontSize: '0.65rem', letterSpacing: '0.2em', opacity: 0.4, marginBottom: '0.75rem' }}>CORREO</label>
+              <input
+                type="email" required value={form.email}
+                onChange={e => setForm(f => ({ ...f, email: e.target.value }))}
+                style={{ width: '100%', background: 'transparent', border: 'none', borderBottom: '1px solid rgba(255,255,255,0.15)', color: '#f9f9f9', fontSize: '1rem', padding: '0.5rem 0', outline: 'none', boxSizing: 'border-box' }}
+              />
+            </div>
+            <div>
+              <label style={{ display: 'block', fontSize: '0.65rem', letterSpacing: '0.2em', opacity: 0.4, marginBottom: '0.75rem' }}>TIPO DE PROYECTO</label>
+              <select
+                required value={form.service}
+                onChange={e => setForm(f => ({ ...f, service: e.target.value }))}
+                style={{ width: '100%', background: '#0a0a0a', border: 'none', borderBottom: '1px solid rgba(255,255,255,0.15)', color: form.service ? '#f9f9f9' : 'rgba(255,255,255,0.35)', fontSize: '1rem', padding: '0.5rem 0', outline: 'none', appearance: 'none' }}
+              >
+                <option value="" disabled>—</option>
+                {CATEGORIES.filter(c => c !== 'Todos').map(c => <option key={c} value={c} style={{ color: '#0a0a0a', background: '#1a1a1a' }}>{c}</option>)}
               </select>
             </div>
             <div>
-              <label style={{ display: 'block', fontSize: '0.65rem', letterSpacing: '0.2em', opacity: 0.4, marginBottom: '0.75rem' }}>
-                MENSAJE
-              </label>
+              <label style={{ display: 'block', fontSize: '0.65rem', letterSpacing: '0.2em', opacity: 0.4, marginBottom: '0.75rem' }}>MENSAJE</label>
               <textarea
-                rows={4}
+                rows={4} required value={form.message}
+                onChange={e => setForm(f => ({ ...f, message: e.target.value }))}
                 style={{ width: '100%', background: 'transparent', border: 'none', borderBottom: '1px solid rgba(255,255,255,0.15)', color: '#f9f9f9', fontSize: '1rem', padding: '0.5rem 0', outline: 'none', resize: 'none', boxSizing: 'border-box' }}
               />
             </div>
+
+            {formState === 'sent' && (
+              <p style={{ fontSize: '0.75rem', letterSpacing: '0.15em', color: 'rgba(255,255,255,0.5)', margin: 0 }}>
+                MENSAJE ENVIADO — EN BREVE ME PONGO EN CONTACTO.
+              </p>
+            )}
+            {formState === 'error' && (
+              <p style={{ fontSize: '0.75rem', letterSpacing: '0.15em', color: 'rgba(255,100,100,0.7)', margin: 0 }}>
+                ALGO SALIÓ MAL. INTENTA DE NUEVO O ESCRIBE A hola@alexcardona.com
+              </p>
+            )}
+
             <button
               type="submit"
-              style={{ alignSelf: 'flex-start', marginTop: '0.5rem', padding: '0.85rem 2.5rem', background: '#fff', color: '#0a0a0a', border: 'none', fontSize: '0.7rem', letterSpacing: '0.2em', cursor: 'pointer', fontFamily: 'inherit', fontWeight: 600 }}
+              disabled={formState === 'sending' || formState === 'sent'}
+              style={{
+                alignSelf: 'flex-start', marginTop: '0.5rem', padding: '0.85rem 2.5rem',
+                background: formState === 'sent' ? 'rgba(255,255,255,0.3)' : '#fff',
+                color: '#0a0a0a', border: 'none', fontSize: '0.7rem', letterSpacing: '0.2em',
+                cursor: formState === 'sending' || formState === 'sent' ? 'default' : 'pointer',
+                fontFamily: 'inherit', fontWeight: 600, transition: 'background 0.3s',
+              }}
             >
-              ENVIAR
+              {formState === 'sending' ? 'ENVIANDO...' : formState === 'sent' ? 'ENVIADO' : 'ENVIAR'}
             </button>
           </form>
         </div>
