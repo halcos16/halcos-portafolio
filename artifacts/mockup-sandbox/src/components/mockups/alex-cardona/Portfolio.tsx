@@ -186,7 +186,7 @@ export function Portfolio() {
 
       {/* ── PORTFOLIO ── */}
       <section id="portafolio" style={{ padding: '7rem 2.5rem 5rem', maxWidth: '1400px', margin: '0 auto' }}>
-        <h2 style={{ fontSize: '0.7rem', letterSpacing: '0.3em', fontWeight: 500, marginBottom: '3rem', opacity: 0.4 }}>
+        <h2 style={{ fontSize: '1.4rem', letterSpacing: '0.3em', fontWeight: 700, marginBottom: '3rem', opacity: 0.85, textAlign: 'center' }}>
           PORTAFOLIO
         </h2>
 
@@ -311,7 +311,7 @@ export function Portfolio() {
             />
           </div>
           <div>
-            <h2 style={{ fontSize: '0.7rem', letterSpacing: '0.3em', fontWeight: 500, marginBottom: '2.5rem', opacity: 0.4 }}>
+            <h2 style={{ fontSize: '1.4rem', letterSpacing: '0.3em', fontWeight: 700, marginBottom: '2.5rem', opacity: 0.85, textAlign: 'center' }}>
               SOBRE MÍ
             </h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', fontSize: '1rem', lineHeight: 1.85, color: '#444', fontFamily: 'Georgia, serif' }}>
