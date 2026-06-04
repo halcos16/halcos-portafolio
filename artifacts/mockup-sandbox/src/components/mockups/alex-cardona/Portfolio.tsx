@@ -35,6 +35,7 @@ export function Portfolio() {
   const [menuOpen, setMenuOpen]             = useState(false);
   const [form, setForm]                     = useState({ name: '', email: '', service: '', message: '' });
   const [formState, setFormState]           = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
+  const [hoveredCategory, setHoveredCategory] = useState<string | null>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -191,21 +192,29 @@ export function Portfolio() {
 
         {/* filters */}
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.25rem 1.5rem', marginBottom: '3.5rem' }}>
-          {CATEGORIES.map(cat => (
-            <button
-              key={cat}
-              onClick={() => setActiveCategory(cat)}
-              style={{
-                background: 'none', border: 'none', cursor: 'pointer', padding: '0.25rem 0',
-                fontSize: '0.7rem', letterSpacing: '0.12em',
-                color: activeCategory === cat ? '#0a0a0a' : '#aaa',
-                borderBottom: activeCategory === cat ? '1px solid #0a0a0a' : '1px solid transparent',
-                transition: 'color 0.2s, border-color 0.2s',
-              }}
-            >
-              {cat.toUpperCase()}
-            </button>
-          ))}
+          {CATEGORIES.map(cat => {
+            const isActive  = activeCategory === cat;
+            const isHovered = hoveredCategory === cat;
+            const dimmed    = hoveredCategory !== null && !isHovered;
+            return (
+              <button
+                key={cat}
+                onClick={() => setActiveCategory(cat)}
+                onMouseEnter={() => setHoveredCategory(cat)}
+                onMouseLeave={() => setHoveredCategory(null)}
+                style={{
+                  background: 'none', border: 'none', cursor: 'pointer', padding: '0.25rem 0',
+                  fontSize: '0.7rem', letterSpacing: '0.12em',
+                  color: isActive ? '#0a0a0a' : '#aaa',
+                  borderBottom: isActive ? '1px solid #0a0a0a' : '1px solid transparent',
+                  opacity: dimmed ? 0.2 : 1,
+                  transition: 'color 0.2s, border-color 0.2s, opacity 0.25s ease',
+                }}
+              >
+                {cat.toUpperCase()}
+              </button>
+            );
+          })}
         </div>
 
         {/* masonry */}
