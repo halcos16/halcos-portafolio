@@ -9,7 +9,9 @@ const CATEGORIES = [
 const IMAGES = [
   { id: 1,  src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780533490/DSC_1097_g5ykqv.jpg',      category: 'Paisajes', title: 'Paisaje I' },
   { id: 2,  src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780369787/DSC_0193_a_fnvgau.jpg',   category: 'Paisajes', title: 'Paisaje II' },
-  { id: 3,  src: '/__mockup/images/luna-1.png',         category: 'Luna',             title: 'Mar de la Tranquilidad' },
+  { id: 3,  src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780534792/IMG_20260530_225905_l2ueqe.jpg',  category: 'Luna', title: 'Luna I' },
+  { id: 15, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780534616/Madre_del_salvador_jhjxly.jpg',   category: 'Luna', title: 'Luna II' },
+  { id: 16, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780534504/DSC_0814-2_ba5kk5.jpg',          category: 'Luna', title: 'Luna III' },
   { id: 4,  src: '/__mockup/images/mascotas-1.png',     category: 'Mascotas',         title: 'Mirada Leal' },
   { id: 5,  src: '/__mockup/images/macro-1.png',        category: 'Macro',            title: 'Microcosmos' },
   { id: 6,  src: '/__mockup/images/flores-1.png',       category: 'Flores',           title: 'Delicadeza Pastel' },
