@@ -26,8 +26,13 @@ const IMAGES = [
   { id: 9,  src: '/__mockup/images/retrato-1.png',      category: 'Retrato',          title: 'Claroscuro' },
   { id: 10, src: '/__mockup/images/retrato-2.jpg',      category: 'Retrato',          title: 'Luz Natural' },
   { id: 11, src: '/__mockup/images/productos-1.jpg',    category: 'Productos',        title: 'Precisión Suiza' },
-  { id: 12, src: '/__mockup/images/bn-1.jpg',           category: 'B&N',              title: 'Reflejos en la Lluvia' },
-  { id: 13, src: '/__mockup/images/bn-2.jpg',           category: 'B&N',              title: 'Alma en Sombras' },
+  { id: 12, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780537304/DSC_1130_yaxbtp.jpg',          category: 'B&N', title: 'B&N I' },
+  { id: 13, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780537698/DSC_0726_bqnlxy.jpg',          category: 'B&N', title: 'B&N II' },
+  { id: 23, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780537390/DSC_7093_jy7whs.jpg',          category: 'B&N', title: 'B&N III' },
+  { id: 24, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780537533/IMG_20230816_181352_kuocpd.jpg',category: 'B&N', title: 'B&N IV' },
+  { id: 25, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780538064/DSC_1712_khj1nb.jpg',          category: 'B&N', title: 'B&N V' },
+  { id: 26, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780537350/DSC_9773_pxldyb.jpg',          category: 'B&N', title: 'B&N VI' },
+  { id: 27, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780538077/DSC_2194_x9hxeb.jpg',          category: 'B&N', title: 'B&N VII' },
   { id: 14, src: '/__mockup/images/doble-1.jpg',        category: 'Doble Exposición', title: 'Simbiosis' },
 ];
 
