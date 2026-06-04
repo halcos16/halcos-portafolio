@@ -142,7 +142,7 @@ export function Portfolio() {
         display: 'flex', alignItems: 'center', justifyContent: 'center',
       }}>
         <img
-          src="/__mockup/images/hero.png"
+          src="https://res.cloudinary.com/dsvzrotib/image/upload/v1780533157/IMG_20230425_181222_tfsuvu.jpg"
           alt="Hero"
           style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         />
