@@ -7,8 +7,8 @@ const CATEGORIES = [
 ];
 
 const IMAGES = [
-  { id: 1,  src: '/__mockup/images/paisajes-1.png',     category: 'Paisajes',         title: 'Amanecer en el Valle' },
-  { id: 2,  src: '/__mockup/images/paisajes-2.png',     category: 'Paisajes',         title: 'Bosque de Niebla' },
+  { id: 1,  src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780533490/DSC_1097_g5ykqv.jpg',      category: 'Paisajes', title: 'Paisaje I' },
+  { id: 2,  src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780369787/DSC_0193_a_fnvgau.jpg',   category: 'Paisajes', title: 'Paisaje II' },
   { id: 3,  src: '/__mockup/images/luna-1.png',         category: 'Luna',             title: 'Mar de la Tranquilidad' },
   { id: 4,  src: '/__mockup/images/mascotas-1.png',     category: 'Mascotas',         title: 'Mirada Leal' },
   { id: 5,  src: '/__mockup/images/macro-1.png',        category: 'Macro',            title: 'Microcosmos' },
