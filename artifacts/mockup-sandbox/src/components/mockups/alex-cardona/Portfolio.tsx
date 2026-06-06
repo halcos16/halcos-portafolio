@@ -139,7 +139,7 @@ export function Portfolio() {
           onClick={() => scrollTo('hero')}
           style={{ fontSize: '0.85rem', fontWeight: 700, letterSpacing: '0.25em', cursor: 'pointer' }}
         >
-          ALEX CARDONA
+          HALCOS
         </span>
 
         {/* desktop links */}
@@ -199,7 +199,7 @@ export function Portfolio() {
 
         <div style={{ position: 'relative', textAlign: 'center', color: '#fff', padding: '0 1.5rem' }}>
           <h1 style={{ fontSize: 'clamp(2.5rem, 8vw, 6rem)', fontWeight: 300, letterSpacing: '0.18em', margin: 0 }}>
-            ALEX CARDONA
+            HALCOS
           </h1>
           <p style={{ marginTop: '1rem', fontSize: '0.8rem', letterSpacing: '0.3em', opacity: 0.75, fontWeight: 400 }}>
             FOTOGRAFÍA PROFESIONAL &amp; DIRECCIÓN VISUAL
@@ -478,7 +478,7 @@ export function Portfolio() {
 
       {/* ── FOOTER ── */}
       <footer style={{ padding: '2rem 2.5rem', background: '#0a0a0a', borderTop: '1px solid rgba(255,255,255,0.06)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <span style={{ fontSize: '0.65rem', letterSpacing: '0.2em', color: 'rgba(255,255,255,0.25)' }}>ALEX CARDONA</span>
+        <span style={{ fontSize: '0.65rem', letterSpacing: '0.2em', color: 'rgba(255,255,255,0.25)' }}>HALCOS</span>
         <span style={{ fontSize: '0.65rem', letterSpacing: '0.1em', color: 'rgba(255,255,255,0.2)' }}>&copy; {new Date().getFullYear()}</span>
       </footer>
 
