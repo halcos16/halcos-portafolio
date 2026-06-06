@@ -363,7 +363,7 @@ export function Portfolio() {
             </h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', fontSize: '1rem', lineHeight: 1.85, color: '#444', fontFamily: 'Georgia, serif' }}>
               <p style={{ margin: 0 }}>
-                Con más de 25 años detrás de la lente, mi visión se ha destilado hacia lo esencial.
+                Hola soy Alex, con mas de 10 años detrás de la lente, mi visión se ha destilado hacia lo esencial.
                 A los 47 años entiendo que la mejor fotografía no grita para llamar la atención,
                 sino que susurra verdades profundas a quienes están dispuestos a observar.
               </p>
