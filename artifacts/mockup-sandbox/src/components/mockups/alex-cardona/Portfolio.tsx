@@ -15,6 +15,7 @@ const IMAGES = [
   { id: 3,  src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780534792/IMG_20260530_225905_l2ueqe.jpg',  category: 'Luna', title: 'Luna I' },
   { id: 15, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780534616/Madre_del_salvador_jhjxly.jpg',   category: 'Luna', title: 'Luna II' },
   { id: 16, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780534504/DSC_0814-2_ba5kk5.jpg',          category: 'Luna', title: 'Luna III' },
+  { id: 63, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780710585/QVZoanFTZWlTWTFaMFF5eGZ2bkdxb2g1_odsmkv.jpg', category: 'Luna', title: 'Luna IV' },
   { id: 4,  src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780535291/DSC_9692_rhk1ut.jpg',  category: 'Vida Animal', title: 'Vida Animal I' },
   { id: 17, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780535249/DSC_7848_monnvc.jpg',  category: 'Vida Animal', title: 'Vida Animal II' },
   { id: 18, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780535318/DSC_7192_lvi9ou.jpg',  category: 'Vida Animal', title: 'Vida Animal III' },
