@@ -45,6 +45,8 @@ const IMAGES = [
   { id: 46, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780706171/QVZpWXZxbVJPSjNWekpPcXFOTFg5ZVUw_lhk8iy.jpg', category: 'Retrato', title: 'Retrato X' },
   { id: 47, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780706135/QVZnZ0hRczNZX0kwdkVCbHlGcktybHY4_hqi9c8.jpg', category: 'Retrato', title: 'Retrato XI' },
   { id: 48, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780706094/QVZnUE13TXcxUHZrbHNGbVlUaXU0RjRV_woatrt.jpg', category: 'Retrato', title: 'Retrato XII' },
+  { id: 55, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780708091/QVZqYzFrc2doaDlsMVYzOExGQV9OSFY4_fc1p3g.jpg', category: 'Retrato', title: 'Retrato XIII' },
+  { id: 56, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780708074/QVZnZEFJYXR1OFRwcmY1blRtYzJIdmdB_ld4ytp.jpg', category: 'Retrato', title: 'Retrato XIV' },
   { id: 11, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780707314/QVZpdVlNd1kxZHFxNWdnOTBISU1meTNL_vji1d8.jpg', category: 'Productos', title: 'Productos I' },
   { id: 49, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780707303/QVZqTjBNRzFFbDlWby1IemtVOGg4U2Qy_tt983l.jpg', category: 'Productos', title: 'Productos II' },
   { id: 50, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780707292/QVZobnFPdTFmM0oxSVFoZ1Jmc2Y3bUp2_iihhnn.jpg', category: 'Productos', title: 'Productos III' },
