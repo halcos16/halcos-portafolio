@@ -26,8 +26,13 @@ const IMAGES = [
   { id: 30, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780704167/IMG_20210224_133654_cyn9g6.jpg',                category: 'Flores', title: 'Flores IV' },
   { id: 31, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780704157/IMG_20210224_132534_oxodyr.jpg',                category: 'Flores', title: 'Flores V' },
   { id: 32, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780702834/QVZoVjBIWjdFM0Nvbk9IQVV5Z2gxcGww_vudwbr.jpg', category: 'Flores', title: 'Flores VI' },
-  { id: 7,  src: '/__mockup/images/arquitectura-1.png', category: 'Arquitectura',     title: 'Líneas Urbanas' },
-  { id: 8,  src: '/__mockup/images/arquitectura-2.png', category: 'Arquitectura',     title: 'Ecos del Pasado' },
+  { id: 7,  src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780704677/QVZpZ09GMUcycklMRldtNEJNTjNCQW5Q_qzkd6j.jpg', category: 'Arquitectura', title: 'Arquitectura I' },
+  { id: 8,  src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780704666/QVZnRlhBOE02dkY0R2psR3cwUy1ac0pa_ce8oef.jpg', category: 'Arquitectura', title: 'Arquitectura II' },
+  { id: 33, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780704650/QVZnN2hEc19uVGV3clphWWJSYjBOdGRu_wnswni.jpg', category: 'Arquitectura', title: 'Arquitectura III' },
+  { id: 34, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780704631/QVZnb3ZPWS01Y1hIVXZEQ29qeVlISmZk_iza9pe.jpg', category: 'Arquitectura', title: 'Arquitectura IV' },
+  { id: 35, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780704618/QVZqdFEyUDd3bm5NZUdtX1ZvREk2NzUt_wooquk.jpg', category: 'Arquitectura', title: 'Arquitectura V' },
+  { id: 36, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780704607/QVZqVW41ejBmbW42VnA5dFNFZ3Y3WGdq_kcegvf.jpg', category: 'Arquitectura', title: 'Arquitectura VI' },
+  { id: 37, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780702949/QVZqZko1bEY0Q01YbVZfRG5id3JONjJE_mgcg98.jpg', category: 'Arquitectura', title: 'Arquitectura VII' },
   { id: 9,  src: '/__mockup/images/retrato-1.png',      category: 'Retrato',          title: 'Claroscuro' },
   { id: 10, src: '/__mockup/images/retrato-2.jpg',      category: 'Retrato',          title: 'Luz Natural' },
   { id: 11, src: '/__mockup/images/productos-1.jpg',    category: 'Productos',        title: 'Precisión Suiza' },
@@ -38,6 +43,7 @@ const IMAGES = [
   { id: 25, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780538064/DSC_1712_khj1nb.jpg',          category: 'B&N', title: 'B&N V' },
   { id: 26, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780537350/DSC_9773_pxldyb.jpg',          category: 'B&N', title: 'B&N VI' },
   { id: 27, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780538077/DSC_2194_x9hxeb.jpg',          category: 'B&N', title: 'B&N VII' },
+  { id: 38, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780703091/QVZoMzVCRUFwMm54V1h3d1k1TjNUY0NI_qhm1ks.jpg', category: 'B&N', title: 'B&N VIII' },
   { id: 14, src: '/__mockup/images/doble-1.jpg',        category: 'Doble Exposición', title: 'Simbiosis' },
 ];
 
