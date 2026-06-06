@@ -20,6 +20,7 @@ const IMAGES = [
   { id: 17, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780535249/DSC_7848_monnvc.jpg',  category: 'Vida Animal', title: 'Vida Animal II' },
   { id: 18, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780535318/DSC_7192_lvi9ou.jpg',  category: 'Vida Animal', title: 'Vida Animal III' },
   { id: 19, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780535280/zeus_izghkv.jpg',      category: 'Vida Animal', title: 'Vida Animal IV' },
+  { id: 66, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780710768/QVZndy0zdjd1bnkwYkMzMmpPeGN1UjAt_ja3q0r.jpg', category: 'Vida Animal', title: 'Vida Animal V' },
   { id: 5,  src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780537017/1780536776016_vcbz3g.jpg',                                                                           category: 'Macro', title: 'Macro I' },
   { id: 20, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780537013/69045068_933978006938665_2779254984020275630_n_17998179646258509_1_ptbvag.jpg',   category: 'Macro', title: 'Macro II' },
   { id: 21, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780537014/69419224_926920564341023_8884218512098998644_n_18075173965120616_1_q20wbm.jpg',   category: 'Macro', title: 'Macro III' },
