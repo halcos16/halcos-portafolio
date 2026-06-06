@@ -70,6 +70,8 @@ const IMAGES = [
   { id: 57, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780708799/QVZoX29FY2VLX19VQWxwdVh6VG9XVVJ3_w9gcop.jpg', category: 'Algo Más', title: 'Algo Más II' },
   { id: 58, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780708767/QVZqUVlhOTZEQ0EwUjBha1FRN2FKUTFP_yxijpl.jpg', category: 'Algo Más', title: 'Algo Más III' },
   { id: 59, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780708751/QVZnaE9sR2ZVYVJFVjZFQlQyMWJuT1pf_vbzcf9.jpg', category: 'Algo Más', title: 'Algo Más IV' },
+  { id: 64, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780710684/QVZnYmRKd3ZaTUpSczBOUVRXVXpZenNO_fvfqso.jpg', category: 'Algo Más', title: 'Algo Más V' },
+  { id: 65, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780710675/QVZoQ1dEMHZEXzRKcDl1RHNZMlMxVEY4_w9azae.jpg', category: 'Algo Más', title: 'Algo Más VI' },
 ];
 
 export function Portfolio() {
