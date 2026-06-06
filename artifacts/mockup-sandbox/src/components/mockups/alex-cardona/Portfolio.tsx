@@ -59,6 +59,7 @@ const IMAGES = [
   { id: 38, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780703091/QVZoMzVCRUFwMm54V1h3d1k5TjNUY0NI_qhm1ks.jpg', category: 'B&N', title: 'B&N VIII' },
   { id: 52, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780707780/QVZoNTJqdEZzTXg4QzM2aUZxb0kzaWEt_elyzcv.jpg', category: 'B&N', title: 'B&N IX' },
   { id: 53, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780707771/QVZoRnlxZS1rYl8wOU9lcmI5V293TFM2_eqztzk.jpg', category: 'B&N', title: 'B&N X' },
+  { id: 54, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780707761/QVZnYUN5Wk1NV2FhNEhHVmNiRC05bUxp_znhlii.jpg', category: 'B&N', title: 'B&N XI' },
   { id: 14, src: '/__mockup/images/doble-1.jpg',        category: 'Doble Exposición', title: 'Simbiosis' },
 ];
 
