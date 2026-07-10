@@ -25,6 +25,7 @@ const IMAGES = [
   { id: 20, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780537013/69045068_933978006938665_2779254984020275630_n_17998179646258509_1_ptbvag.jpg',   category: 'Macro', title: 'Macro II' },
   { id: 21, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780537014/69419224_926920564341023_8884218512098998644_n_18075173965120616_1_q20wbm.jpg',   category: 'Macro', title: 'Macro III' },
   { id: 22, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780537008/71704510_124798742276055_151059338605438525_n_18112443658031182_1_wrbfnd.jpg',    category: 'Macro', title: 'Macro IV' },
+  { id: 67, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1783718926/1783718733448_vwgn5r.jpg', category: 'Macro', title: 'Macro V' },
   { id: 6,  src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780704202/QVZnbm14Qm1Ick5odW0wVUpIZFNuVTBK_sfdtni.jpg', category: 'Flores', title: 'Flores I' },
   { id: 28, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780704189/QVZoV2JWWmpxaFRzbmNTYVRYcXFqRUIw_qaj3e4.jpg', category: 'Flores', title: 'Flores II' },
   { id: 29, src: 'https://res.cloudinary.com/dsvzrotib/image/upload/v1780704182/QVZneE5KOFd4N3VhZHhMSVdKVks2am1Y_nmhogk.jpg', category: 'Flores', title: 'Flores III' },
