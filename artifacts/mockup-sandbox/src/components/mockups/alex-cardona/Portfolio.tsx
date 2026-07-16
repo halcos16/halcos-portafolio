@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react'; // v2
 import { X, ChevronLeft, ChevronRight, Instagram, Linkedin, Mail } from 'lucide-react';
 
 const CATEGORIES = [
