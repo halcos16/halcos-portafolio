@@ -1,4 +1,5 @@
 {
+  "outputDirectory": "artifacts/mockup-sandbox/dist",
   "rewrites": [
     {
       "source": "/(.*)",
